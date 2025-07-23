@@ -21,3 +21,15 @@ Fitur dan Target pada Dataset :
 -	Negotiable: Status mobil bisa ditawar atau tidak.
 -   Price : harga mobil yang dijadikan target untuk prediksi.
 
+
+Untuk menjalankan file notebook (*.ipynb) :
+1. buka Visual studio code, dan buka file NoviantoChris_capstone3_Revisi2.ipyb
+2. pastikan file data_saudi_used_cars.csv berada pada satu folder yang sama dengan file notebooknya
+3. pilih kernel python untuk menjalakan program notebooknys
+4. klik tombol run all untuk melihat hasil eksekusi setiap cell kode
+
+Untuk menjalankan file predict.py :
+1. buka Visual Studio Code dan buka file predict.py
+2. pastikan file xgboost_model_final.sav berada satu folder dengan file programnya
+3. Pada window terminal ketik streamlit run predict.py
+4. progam akan terbuka di browser
